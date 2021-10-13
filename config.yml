@@ -1,0 +1,16 @@
+development:
+  password: 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
+  theme_id: 128020578558
+  store: side-cart-react.myshopify.com
+  ignores:
+staging:
+  password: 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
+  theme_id: 128020578558
+  store: side-cart-react.myshopify.com
+  ignores:
+production:
+  password: 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
+  theme_id: 128020578558
+  store: side-cart-react.myshopify.com
+  readonly: true
+  ignores:
