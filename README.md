@@ -36,7 +36,7 @@ const path = require("path")
 
 module.exports = {
   entry: {
-    'ajax-cart-side': "./scripts/ajax-cart-side.js"
+    'ajax-cart-side': "./scripts/ajax-cart-side.jsx"
   },
   module: {
     rules: [
