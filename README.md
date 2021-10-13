@@ -100,7 +100,7 @@ ReactDom.render(<Test />, root);
 ```
 
 
-Issues: when you install it, may a few issues will happen.  In that case, ```npm link webpack``` ```npm install webpack``` or ```const { merge } = require('webpack-merge');```
+Issues: when you install it, may a few issues will happen.  In that case, ```npm link webpack``` ```npm install webpack``` or change the merge like this ```const { merge } = require('webpack-merge');``` in webpack.dev.js and webpack.prod.js
 
 ```Error: Cannot find module 'v8-compile-cache'```
 
